@@ -1,0 +1,15 @@
+20 apps in MiBench are successfully built and run in ubuntu-16.04/ia32.
+
+1. The following benchmarks failed to be built in ia32 right now.
+ office/ghostscript
+ consumer/tiff-v3.5.4
+ consumer/lame: buffer overflow during runtime
+
+2. The following benchmarks need work around to be built successfully.
+(1) consumer/lame:
+>>>can't find termcap.h
+<<<sudo apt-get install libncurses5-dev
+or sudo apt-get build-dep nmon
+(2)consumer/mad
+>>>unrecognized command line option -fforce-mem
+<<<remove --force-mem from mad/mad-0.14.2b/libmad/Makefile 

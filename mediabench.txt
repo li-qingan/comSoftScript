@@ -1,0 +1,15 @@
+summary:
+9 among 12 apps succeed
+
+
+
+mpeg4dec:
+mpeg4enc:
+<<<link error
+
+h263dec:
+<<<buffer overflow detected
+
+mpeg2dec:
+mpeg2enc:
+===revise README.exec_info: mpeg2dec->mpeg2decode, mpeg2enc->mpeg2encode

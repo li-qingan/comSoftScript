@@ -1,0 +1,10 @@
+This directory includes several files about MiBench and MediaBench.
+
+BuildMiBench.py:
+BuildMediaBench.py: py script to build MiBench or MediaBench in batch
+
+runMiBench.py:
+runMediaBench.py:	py script to run MiBench or MediaBench in batch
+
+pinMiBench.py:
+pinMediaBench.py:	py script to pin-simulate MiBench or MediaBench in batch
