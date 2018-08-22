@@ -8,3 +8,5 @@ runMediaBench.py:	py script to run MiBench or MediaBench in batch
 
 pinMiBench.py:
 pinMediaBench.py:	py script to pin-simulate MiBench or MediaBench in batch
+
+fileComsoft.py: py module used by other py tools
